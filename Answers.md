@@ -1,17 +1,3 @@
-(number of possible roles that can sum to the number)/(total number of possible roles) = prob of rolling a number
-
-7?
-1 + 6
-2 + 5
-3 + 4
-
-
-2?
-1+1
-
-
-36 possible roles
-
 #Chris Sheehan 2/4/15
 
 # CSCI 121: Computer Science II
