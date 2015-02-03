@@ -6,7 +6,7 @@ public class Main{
       Histogram hist = new Histogram();
       Die d1 = new Die();
       Die d2 = new Die();
-      int limit = 5000;
+      int limit = 1000000;
       
       while(limit != 0){
         int roll_total = d1.getUpValue() + d2.getUpValue();

@@ -16,3 +16,7 @@ Running the simulation 5 times shows that the overall variation between values i
 
 ####Question 3:
 Increasing the number of rolls greatly increases the precision of the simulation, as expected.
+
+####Question 4:
+To get a more accurate prediction for 7, the number of rolls must be increased to 1000000.  
+To get a more accurate prediction for 2, the number of rolls must also be increased to 1000000.
