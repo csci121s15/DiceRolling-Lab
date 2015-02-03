@@ -15,3 +15,4 @@ Rolling a 2: 1/36
 Running the simulation 5 times shows that the overall variation between values is immense, thus, 100 rolls is NOT sufficient to determine the relative frequenc of all the possible rolls.
 
 ####Question 3:
+Increasing the number of rolls greatly increases the precision of the simulation, as expected.
