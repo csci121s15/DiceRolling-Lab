@@ -30,10 +30,19 @@ public class Histogram{
       System.out.println(val + " " + getCount(val) + " " + getRatio(val));
       val += 1;
   }
+  }
       
-//  public void prettyPrint(){
-//    System.out.println(hist[roll]);
+  public void prettyPrint(){
+    int val = 2;
+    while (val <=12){
+      System.out.print(val + ": ");
+      for(int i=0; i<getCount(val); i++) {
+        System.out.print("*");}
+      val += 1;
+      System.out.println();
+    
   }
       
      
+}
 }
