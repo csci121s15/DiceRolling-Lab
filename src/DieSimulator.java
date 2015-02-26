@@ -11,5 +11,15 @@ public class DieSimulator{
       hist.tally(d1.getUpValue()+d2.getUpValue());
     }
     hist.print();
+    
+    Histogram hist2 = new Histogram();
+    
+    for (int i = 0; i < 10; i++) {
+      d1.roll();
+      d2.roll();
+      hist2.tally(d1.getUpValue()+d2.getUpValue());
+    }
+    hist2.print();
+    hist2.prettyPrint();
   }
 }
