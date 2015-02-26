@@ -4,11 +4,12 @@ public class Simulation {
     Die die = new Die();
     Die die2 = new Die();
     
-    for (int i = 0; i <= 1000000; i++) {
+    for (int i = 0; i <= 100; i++) {
       die.roll();
       die2.roll();
       hist.tally(die.getUpValue()+die2.getUpValue());
     }    
-    hist.print();
+    //hist.print();
+    hist.prettyPrint();
   }
 }
