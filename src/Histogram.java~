@@ -1,0 +1,6 @@
+public class Histogram
+{
+  private int[] hist = new [13];
+  
+  public viod tally(int roll) {
+    hist[roll] += 1;
